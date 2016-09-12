@@ -1,0 +1,102 @@
+.Bloc{
+height:900px;	
+width:1600px;	
+}
+.Krytoi {
+width: 100%;
+height: 200px;
+border: 0px solid green;
+}
+
+.logo, .Krytoi-menu, .sign {
+width: 33%;
+height: 80%;
+float: left;
+border: 0px solid pink;
+}
+
+.Right{
+position: absolute;
+height: 691px;
+background-color: green;
+width: 258px;
+top: 194px;
+left: 2px;
+Border-width: 3px;
+border-Style: outset;
+}
+.Center{
+position: absolute;
+background-color: #fff;
+opacity: 0.5;
+height: 691px;
+width: 1060px;
+top: 195px;
+left: 272px;
+Border-width: 2px;
+border-Style: solid;
+}
+
+.Left{
+ position: absolute;
+height: 691px;
+width: 258px;
+top: 194px;
+right: -22px;
+Border-width: 3px;
+border-Style: inset;
+background: rgba(206,171,107,0.7);
+}
+
+.Up{
+position: relative;
+font-family: 'PT_Sans-Web-Bold';
+height: 162px;
+width: 1596px;
+top: -884px;
+left: -3px;
+Border-width: 2px;
+border-Style: solid;
+}
+
+.Down{
+position: absolute;
+font-family: 'Pompadur';
+height: 160px;
+width: 1594px;
+top: 900px;
+left: 6px;
+color: white;
+Border-width: 7px;
+box-shadow: 1px 2px 3px 4px #110F15;
+border-Style: solid;
+border: none;
+font-size: 22pt;
+}
+ul.css-menu-2 {
+list-style: none;
+border-bottom: 0px #888899 solid;
+padding-bottom: 12px;
+}
+
+ul.css-menu-2 li {
+display: inline;
+margin-right: 54px
+}
+
+ul.css-menu-2 li a {
+    color: #000;
+    text-decoration: none;
+    background: #a7cb48;
+    border: 1px #bbbbcc solid;
+    border-bottom: none;
+    padding: 10px 16px;
+}
+
+ul.css-menu-2 li a:hover {
+color: #000;
+background: rgba(134, 191, 6, 0.64);
+border: 1px #363684 solid;
+border-bottom: 1px #0e0d0d solid;
+padding: 8px -7px 12px 34px;
+}
